@@ -14,13 +14,24 @@ namespace TicTacToe
 
             if (S1 == "X")
             {
-                Console.WriteLine("Player 1 selected 'X'");
-                Console.WriteLine("Player 2 selected 'O'");
+                Console.WriteLine("Player selected 'X'");
+                Console.WriteLine("Computer selected 'O'");
             }
             else
             {
-                Console.WriteLine("Player 1 selected 'O'");
-                Console.WriteLine("Player 2 selected 'X'");
+                Console.WriteLine("Player selected 'O'");
+                Console.WriteLine("Computer selected 'X'");
+            }
+
+            if (S2 == "0")
+            {
+                Console.WriteLine("Player selected 'O'");
+                Console.WriteLine("Computer selected 'X'");
+            }
+            else
+            {
+                Console.WriteLine("Player selected 'X'");
+                Console.WriteLine("Computer selected 'O'");
             }
         }
     }
